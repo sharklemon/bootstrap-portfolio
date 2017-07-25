@@ -16,7 +16,7 @@ body {
 }
 
 .leftbox{
-    padding:20px 0px 100px 0px;
+    padding:20px 0px 120px 0px;
     margin:20px 40px 20px 40px;
     background-color: #f0ebe6;
     border:2px solid #e4d2d3;
@@ -25,13 +25,25 @@ body {
 .footer{
     background-color:#fff;
     padding:10px;
+    position:relative;
+    bottom:0;
+}
 
+img{}
+
+.img-thumbnail{
+    margin:10px 10px 10px 10px;
 }
 
 .navbar{
     border:0;
     padding:10px;
 }
+
+.form-group{
+    
+}
+
 
 h1 {
     color: #29352e;
@@ -84,13 +96,15 @@ caption{}
 
 .projectPanel{
     position:relative;
-    margin-left:20%;
-    margin-right:20%;
-    
+    margin-left:20%;    
 }
 
 
-
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
 

@@ -22,6 +22,12 @@
   <nav class="navbar navbar-default">
     <div class="container">
 		<div class="navbar-header">
+		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      	</button>
         	<h1 class="navbar-brand">Anastasia Mark</h1>
       	</div>
       	<div id="navbar" class="navbar-collapse collapse">
@@ -41,22 +47,29 @@
     <!-- row for all of main content -->
     <div class="row">
     	<!-- left content -->
-		<div class="col-lg-8">
+		<div class="col-lg-8" class="clearfix">
 	        <div class="row">
-				<h1>About Me</h1>
+				<h1>Contact Me</h1>
 	        </div>
-	        <div class="row">
-	        	<div class ="panel-body">
-					<div class="pull-left"><img class="img-rounded" alt="Head Shot" width="200" height="200" src="assets/images/head_shot.jpg"></div>
-					<div class ="panel-text">
-						<p> 你好！Anastasia Mark is a China analyst and Technical Lead for the analytic team at Thresher LLC. Her background is in political and China studies. Her passion is integrating technology into the analytical process to bring the best of machines and humans together into polished products.</p>
-						<p>Anastasia has a professional fluency in Mandarin and technical training in full stack development. She also is the proud Mom of a 2 year old whippet mix, Rosie.</p>
-					</div>
+			<div class="panel-body">
+		        <div class="form-group row">
+					<label for="example-text-input" class="col-2 col-form-label">Name</label>
+					<div class="col-10">
+				    	<input class="form-control" type="text" value="Enter Name Here" id="example-text-input">
+				  	</div><br>
+					<label for="example-text-input" class="col-2 col-form-label">Email</label>				  	
+				  	<div class="col-10">
+				    	<input class="form-control" type="text" value="email@domain.com" id="example-text-input">
+				  	</div>
 				</div>
-	        </div>        
+				<div class="form-group">
+  					<label for="Message">Comment:</label>
+  					<textarea class="form-control" rows="8" id="comment"></textarea>
+				</div>
+			</div>	
     	</div>
     	<!-- right content -->
-    	<div class="col-lg-4">
+    	<div class="col-lg-4" class="clearfix">
 	            <div class="row">
 	            	<h1> Contact</h1>
 	            </div>	
