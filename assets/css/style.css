@@ -1,0 +1,96 @@
+body {
+     margin: 0;
+     background: url("../images/hip-square.png");
+     font: 13px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.panel-body{
+    background-color: #f0ebe6;
+    margin: 20px 20px 20px 20px;
+    padding:20px;
+    border:2px solid #e4d2d3;
+}
+
+.panel-text{
+    padding:10px 10px 10px 220px;
+}
+
+.leftbox{
+    padding:20px 0px 100px 0px;
+    margin:20px 40px 20px 40px;
+    background-color: #f0ebe6;
+    border:2px solid #e4d2d3;
+}
+
+.footer{
+    background-color:#fff;
+    padding:10px;
+
+}
+
+.navbar{
+    border:0;
+    padding:10px;
+}
+
+h1 {
+    color: #29352e;
+    font-family: 'Lora', 'Georgia', serif;
+    text-align: left;
+    border-bottom: 4px solid #e4d2d3;
+    font-size: 20pt;
+}
+
+.navbar-brand{
+    font-size: 40pt;
+
+}
+
+h2{
+    color: #29352e;
+    font-family: 'Lora', 'Georgia', serif;
+    text-align: left;
+    border-bottom: 2.5px solid #e4d2d3;
+    font-size: 16pt
+}
+
+h3{
+    color: #29352e;
+    font-family: 'Helvetica Neue', 'Arial', Helvetica, sans-serif;.
+    border-left: 4px solid #e4d2d3;
+    font-size: 12pt;
+    padding-left:7px;
+} 
+
+p, li {
+    font-family: 'Helvetica Neue', 'Arial', Helvetica, sans-serif;
+    line-height: 1.5;
+    color: #29352e;
+    font-size:14pt;
+}
+
+caption{}
+
+.post-content {
+    background: none repeat scroll 0 0 #FFFFFF;
+    opacity: 0.7;
+    color:#29352e;
+    width:80%;
+    top:140px;
+    padding:0px 0px 10px 0px;
+    position: absolute;
+    text-align:center;
+}
+
+.projectPanel{
+    position:relative;
+    margin-left:20%;
+    margin-right:20%;
+    
+}
+
+
+
+
+
+

@@ -1,0 +1,93 @@
+<!-- Demo Layout for Bootstrap (with panels) -->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>My First Website</title>
+
+  <!-- We need to bring in the bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!-- NavBar (copied and pasted from WC3) -->
+  <!-- Static navbar -->
+  <nav class="navbar navbar-default">
+    <div class="container">
+		<div class="navbar-header">
+        	<h1 class="navbar-brand">Anastasia Mark</h1>
+      	</div>
+      	<div id="navbar" class="navbar-collapse collapse">
+	        <ul class="nav navbar-nav navbar-right">
+	          <li class="active"><a href="index.html">About <span class="sr-only">(current)</span></a></li>
+	          <li><a href="portfolio.html">Portfolio</a></li>
+	          <li><a href="contact.html">Contact</a></li>
+	        </ul>
+      	</div>
+      <!--/.nav-collapse -->
+    </div>
+    <!--/.container-fluid -->
+  </nav>
+
+  <!-- Main Body goes in Container -->
+  <div class="container">
+    <!-- row for all of main content -->
+    <div class="row">
+    	<!-- left content -->
+		<div class="col-lg-8">
+	        <div class="row">
+				<h1>About Me</h1>
+	        </div>
+	        <div class="row">
+	        	<div class ="panel-body">
+					<div class="pull-left"><img class="img-rounded" alt="Head Shot" width="200" height="200" src="assets/images/head_shot.jpg"></div>
+					<div class ="panel-text">
+						<p> 你好！Anastasia Mark is a China analyst and Technical Lead for the analytic team at Thresher LLC. Her background is in political and China studies. Her passion is integrating technology into the analytical process to bring the best of machines and humans together into polished products.</p>
+						<p>Anastasia has a professional fluency in Mandarin and technical training in full stack development. She also is the proud Mom of a 2 year old whippet mix, Rosie.</p>
+					</div>
+				</div>
+	        </div>        
+    	</div>
+    	<!-- right content -->
+    	<div class="col-lg-4">
+	            <div class="row">
+	            	<h1> Contact</h1>
+	            </div>	
+	            <div class="row">
+	            	<div class="leftbox">
+		                <div class="col-md-4">
+		                	<a href="https://www.linkedin.com/in/anastasiamark/" target="_blank"><img class="img img-thumbnail" src="assets/images/linkedin.svg" width="85" height="85"></a>
+	                	</div>
+		                <div class="col-md-4">
+		                	<a href="https://www.linkedin.com/in/anastasiamark/" target="_blank"><img class="img img-thumbnail" src="assets/images/kitty.png" width="85" height="85"></a>
+	                	</div>
+		                <div class="col-md-4">
+		                	<a href="https://www.linkedin.com/in/anastasiamark/" target="_blank"><img class="img img-thumbnail" src="assets/images/email.png" width="85" height="85"></a>
+	                	</div> 
+	                </div>	               
+	            </div>
+			</div>
+        </div>         
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12">
+        <!-- The content in this div gets wrapped in a panel -->
+        <div class="footer">
+	        <div class="text-center">
+	        	<p> © Anastasia 2017</p>
+	        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
